@@ -154,7 +154,7 @@ export class AddFeaturesAdminComponent implements AfterViewInit {
       // console.log(Data);
       // Data.map((e: any) => console.log(e.categoryValue));
       let obj = Data.find((o: any) => serve.categoryName === o.categoryValue);
-      if (!obj) return;
+      // if (!obj) return;
       console.log(obj);
 
       Data.forEach((e: any) => {
