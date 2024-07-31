@@ -1,0 +1,502 @@
+{
+  "services": [
+    {
+      "categoryName": "Airport",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/30",
+      "symbolType": "web-style",
+      "symbolIcon": "airport"
+    },
+    {
+      "categoryName": "ASI Protected Monuments",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/29",
+      "symbolType": "web-style",
+      "symbolIcon": "museum"
+    },
+    {
+      "categoryName": "Amusement Park",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Amusement_Park_mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "amusement-park"
+    },
+    {
+      "categoryName": "ATM",
+      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Atm_center/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "atm"
+    },
+    {
+      "categoryName": "Bank",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/27",
+      "symbolType": "web-style",
+      "symbolIcon": "city-hall"
+    },
+    {
+      "categoryName": "Bank & ATM",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/27",
+      "symbolType": "web-style",
+      "symbolIcon": "city-hall"
+    },
+    {
+      "categoryName": "Bank And Currency Exchange",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/27",
+      "symbolType": "web-style",
+      "symbolIcon": "city-hall"
+    },
+    {
+      "categoryName": "Bus Stop",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/bus_stops_mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "bus-station"
+    },
+    {
+      "categoryName": "Crematorium",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/25",
+      "symbolType": "web-style",
+      "symbolIcon": "cemetery"
+    },
+    {
+      "categoryName": "Educational Institutions",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "Coaching Center",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "Collage",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "Library",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "Play School",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "Private university",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "Educational Institutions",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "School",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "School For Differently Abled",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "State university",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "university"
+    },
+    {
+      "categoryName": "Election Booth",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/22",
+      "symbolType": "web-style",
+      "symbolIcon": "embassy"
+    },
+    {
+      "categoryName": "Electric Substations",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/5",
+      "symbolType": "web-style",
+      "symbolIcon": "esri-pin-2"
+    },
+    {
+      "categoryName": "Entertainment Places",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Water fall",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Zoo",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Beach",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Casino",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Cinema",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Lake",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Convention Centre",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "live-music-venue"
+    },
+    {
+      "categoryName": "Gas Agency",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/20",
+      "symbolType": "web-style",
+      "symbolIcon": "gas-station"
+    },
+    {
+      "categoryName": "Courts",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/19",
+      "symbolType": "web-style",
+      "symbolIcon": "embassy"
+    },
+    {
+      "categoryName": "Customs",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/19",
+      "symbolType": "web-style",
+      "symbolIcon": "embassy"
+    },
+    {
+      "categoryName": "Fire Station",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/19",
+      "symbolType": "web-style",
+      "symbolIcon": "embassy"
+    },
+    {
+      "categoryName": "Passport Seva Kendra",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/19",
+      "symbolType": "web-style",
+      "symbolIcon": "embassy"
+    },
+    {
+      "categoryName": "Police Post ",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/19",
+      "symbolType": "web-style",
+      "symbolIcon": "embassy"
+    },
+    {
+      "categoryName": "Government Office",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/19",
+      "symbolType": "web-style",
+      "symbolIcon": "embassy"
+    },
+    {
+      "categoryName": "Heritages",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/18",
+      "symbolType": "web-style",
+      "symbolIcon": "native-reservation"
+    },
+    {
+      "categoryName": "Coffee Shops",
+      "url": " https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
+      "symbolType": "web-style",
+      "symbolIcon": "hotel"
+    },
+    {
+      "categoryName": "Fast Food",
+      "url": " https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
+      "symbolType": "web-style",
+      "symbolIcon": "hotel"
+    },
+    {
+      "categoryName": "Food Plaza",
+      "url": " https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
+      "symbolType": "web-style",
+      "symbolIcon": "hotel"
+    },
+    {
+      "categoryName": "North Indian",
+      "url": " https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
+      "symbolType": "web-style",
+      "symbolIcon": "hotel"
+    },
+    {
+      "categoryName": "Hotel",
+      "url": " https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
+      "symbolType": "web-style",
+      "symbolIcon": "hotel"
+    },
+    {
+      "categoryName": "Dharmashalas",
+      "url": " https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
+      "symbolType": "web-style",
+      "symbolIcon": "hotel"
+    },
+    {
+      "categoryName": "Premium Hotel",
+      "url": " https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
+      "symbolType": "web-style",
+      "symbolIcon": "hotel"
+    },
+    {
+      "categoryName": "Market",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/17",
+      "symbolType": "web-style",
+      "symbolIcon": "grocery-store"
+    },
+    {
+      "categoryName": "Medical Store",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/16",
+      "symbolType": "web-style",
+      "symbolIcon": "cross-3"
+    },
+    {
+      "categoryName": "Park",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/15",
+      "symbolType": "web-style",
+      "symbolIcon": "playground"
+    },
+    {
+      "categoryName": "Path labs",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/14",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Post office",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/12",
+      "symbolType": "web-style",
+      "symbolIcon": "post-office"
+    },
+    {
+      "categoryName": "Ayurvedic  Hospital",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Blood Bank",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Children Hospital",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Dental Clinic",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "ENT Clinic",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Eye Clinic",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Heart Hospital",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Anganwadi Hospital",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Mental Hospital",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Orthopedic Hospital",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Veterinary clinic",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Healthcare Center",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "hospital"
+    },
+    {
+      "categoryName": "Pumping Station",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/11",
+      "symbolType": "web-style",
+      "symbolIcon": "esri-pin-1"
+    },
+    {
+      "categoryName": "Railway Station",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/2",
+      "symbolType": "web-style",
+      "symbolIcon": "train-station"
+    },
+    {
+      "categoryName": "Religious Places",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
+      "symbolType": "web-style",
+      "symbolIcon": "place-of-worship"
+    },
+    {
+      "categoryName": "Church",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
+      "symbolType": "web-style",
+      "symbolIcon": "place-of-worship"
+    },
+    {
+      "categoryName": "Gurudwara",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
+      "symbolType": "web-style",
+      "symbolIcon": "place-of-worship"
+    },
+    {
+      "categoryName": "Hindu Temple",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
+      "symbolType": "web-style",
+      "symbolIcon": "place-of-worship"
+    },
+    {
+      "categoryName": "Jain temple",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
+      "symbolType": "web-style",
+      "symbolIcon": "place-of-worship"
+    },
+    {
+      "categoryName": "Mosque",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
+      "symbolType": "web-style",
+      "symbolIcon": "place-of-worship"
+    },
+    {
+      "categoryName": "Parsi Temple",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
+      "symbolType": "web-style",
+      "symbolIcon": "place-of-worship"
+    },
+    {
+      "categoryName": "Reservoir Over Head Tanks",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/9",
+      "symbolType": "web-style",
+      "symbolIcon": "ferry"
+    },
+    {
+      "categoryName": "Night Club",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Resorts_mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "theatre"
+    },
+    {
+      "categoryName": "Pubs & Bars",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Resorts_mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "theatre"
+    },
+    {
+      "categoryName": "Resorts",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Resorts_mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "theatre"
+    },
+    {
+      "categoryName": "Continental",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/1",
+      "symbolType": "web-style",
+      "symbolIcon": "restaurant"
+    },
+    {
+      "categoryName": "Restaurants",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/1",
+      "symbolType": "web-style",
+      "symbolIcon": "restaurant"
+    },
+    {
+      "categoryName": "Shopping Complex",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/7",
+      "symbolType": "web-style",
+      "symbolIcon": "shopping-center"
+    },
+    {
+      "categoryName": "Shopping Mall",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/7",
+      "symbolType": "web-style",
+      "symbolIcon": "shopping-center"
+    },
+    {
+      "categoryName": "Telephone Exchange",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/6",
+      "symbolType": "web-style",
+      "symbolIcon": "radio-tower"
+    },
+    {
+      "categoryName": "Tourist Spots",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Tourist_Sprots_Mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "beach"
+    },
+    {
+      "categoryName": "Hill Station",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Tourist_Sprots_Mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "beach"
+    },
+    {
+      "categoryName": "Museum",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Tourist_Sprots_Mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "beach"
+    },
+    {
+      "categoryName": "Treatment Plant",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Treatment_Plant_Mamgalore/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "military-base"
+    }
+  ]
+}

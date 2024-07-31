@@ -1,0 +1,43 @@
+<p>layerlist works!</p>
+<!-- <form>
+  <label for="layer-name">Layer Name:</label>
+  <input type="text" id="layer-name" name="layer-name"><br><br>
+
+  <label for="url">Enter URL:</label>
+  <input type="url" id="url" name="url"><br><br>
+
+  <label for="icon">Icon:</label>
+  <select id="icon" name="icon">
+    <option value="">Select Icon</option>
+    <option value="accessibility">Accessibility</option>
+    <option value="aerial-tram">Aerial-tram</option>
+    <option value="airport">Airport</option>
+    <option value="amusement-park">Amusement-park</option>
+    <option value="aquarium">Aquarium</option>
+  </select><br><br>
+  <input type="button" id="load" value="Load and Check" (click)="loadLayer">
+  <input type="submit" id="addLayer" value="Add Layer">
+</form> -->
+
+<div #map></div>
+<form #layerForm="ngForm">
+  <label for="layer-name">Layer Name:</label>
+  <input type="text" id="layer-name" name="layerName" ngModel><br><br>
+
+  <label for="url">Enter URL:</label>
+  <input type="url" id="url" name="url" ngModel><br><br>
+
+  <label for="icon">Icon:</label>
+  <select id="icon" name="icon" ngModel>
+    <option value="">Select Icon</option>
+    <option value="accessibility">Accessibility</option>
+    <option value="aerial-tram">Aerial-tram</option>
+    <option value="airport">Airport</option>
+    <option value="amusement-park">Amusement-park</option>
+    <option value="aquarium">Aquarium</option>
+  </select><br><br>
+
+  <button #exportButton id="exportButton">Export to Excel</button><br /><br />
+  <input type="submit" id="load" value="Load and Check" (click)="loadLayer(layerForm)">
+  <input type="submit" id="addLayer" value="Add Layer">
+</form>
