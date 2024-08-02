@@ -44,6 +44,7 @@ export class MapComponent implements OnInit, OnDestroy, AfterViewInit {
   inputText = document.getElementById('url');
   async ngAfterViewInit() {
     this.getLocation();
+    this.calculateTime('15.30','3.50')
     const featureLayer = await this.arcgisService.loadFeatureLayer(
       'https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/1'
     );
@@ -116,5 +117,24 @@ export class MapComponent implements OnInit, OnDestroy, AfterViewInit {
         console.log(pos.coords);
       });
     }
+  }
+
+  calculateTime(time1: any, time2: any) {
+    let [hours1, minutes1] = time1.split('.').map(Number);
+    let [hours2, minutes2] = time2.split('.').map(Number);
+
+    let date1: any = new Date(0, 0, 0, hours1, minutes1);
+    let date2: any = new Date(0, 0, 0, hours2, minutes2);
+
+    // Calculate the difference in milliseconds
+    let diffInMs = date1 - date2;
+
+    // Convert the difference to minutes
+    let diffInMinutes = Math.floor(diffInMs / 1000 / 60);
+
+    let diffHours = Math.floor(diffInMinutes / 60);
+    let diffMinutes = diffInMinutes % 60;
+
+    console.log(`${diffHours} hours and ${diffMinutes} minutes`);
   }
 }
