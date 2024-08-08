@@ -44,7 +44,7 @@ export class MapComponent implements OnInit, OnDestroy, AfterViewInit {
   inputText = document.getElementById('url');
   async ngAfterViewInit() {
     this.getLocation();
-    this.calculateTime('15.30','3.50')
+    this.calculateTime('00.00', '23.59');
     const featureLayer = await this.arcgisService.loadFeatureLayer(
       'https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/1'
     );

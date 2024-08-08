@@ -1,198 +1,232 @@
 {
   "services": [
     {
-      "titleName": "AIRPORTS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Airport/FeatureServer/0",
+      "titleName": "AIRPORT",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/30",
       "symbolType": "web-style",
-      "symbolIcon": "airport"
-    },
-    {
-      "titleName": "ASI PROTECTED MONUMENTS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/ASI_Protected_Monuments/FeatureServer/0",
-      "symbolType": "web-style",
-      "symbolIcon": "museum"
-    },
-    {
-      "titleName": "ATM CENTERS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Atm_center/FeatureServer/0",
-      "symbolType": "web-style",
-      "symbolIcon": "atm"
+      "symbolIcon": "airport",
+      "id": "OBJECTID"
     },
     {
       "titleName": "AMUSEMENT PARK",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Amusement_park/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Amusement_Park_mangaluru/FeatureServer/0",
       "symbolType": "web-style",
-      "symbolIcon": "amusement-park"
+      "symbolIcon": "amusement-park",
+      "id": "FID"
     },
     {
-      "titleName": "BANKS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Bank/FeatureServer/0",
+      "titleName": "ASI PROTECTED MONUMENT",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/29",
       "symbolType": "web-style",
-      "symbolIcon": "city-hall"
+      "symbolIcon": "museum",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "BUS STOPS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Bus_stop/FeatureServer/0",
+      "titleName": "ATM CENTER",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/28",
       "symbolType": "web-style",
-      "symbolIcon": "bus-station"
+      "symbolIcon": "atm",
+      "id": "OBJECTID"
+    },
+
+    {
+      "titleName": "BANK",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/27",
+      "symbolType": "web-style",
+      "symbolIcon": "city-hall",
+      "id": "OBJECTID"
+    },
+    {
+      "titleName": "BUS STOP",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/bus_stops_mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "bus-station",
+      "id": "FID"
     },
 
     {
       "titleName": "CREMATORIUM",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Crematorium/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/25",
       "symbolType": "web-style",
-      "symbolIcon": "cemetery"
+      "symbolIcon": "cemetery",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "EDUCATIONAL INSTITUTIONS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Education_Institution/FeatureServer/0",
+      "titleName": "EDUCATIONAL INSTITUTION",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Education_Institution_Mangalore/FeatureServer/0",
       "symbolType": "web-style",
-      "symbolIcon": "university"
+      "symbolIcon": "university",
+      "id": "FID"
     },
     {
-      "titleName": "ELECTORAL BOOTH LOCATION",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Election_booth_location/FeatureServer/0",
+      "titleName": "ELECTION BOOTH LOCATION",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/22",
       "symbolType": "web-style",
-      "symbolIcon": "embassy"
+      "symbolIcon": "embassy",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "ELECTRIC SUBSTATIONS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Electric_Substation/FeatureServer/0",
+      "titleName": "ELECTRIC SUBSTATION",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/5",
       "symbolType": "web-style",
-      "symbolIcon": "esri-pin-2"
+      "symbolIcon": "esri-pin-2",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "ENTERTAINMENT PLACES",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Entertainment_Place/FeatureServer/0",
+      "titleName": "ENTERTAINMENT PLACE",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Entertainment_Mangalore/FeatureServer/0",
       "symbolType": "web-style",
-      "symbolIcon": "live-music-venue"
+      "symbolIcon": "live-music-venue",
+      "id": "FID"
     },
     {
       "titleName": "GAS AGENCY",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Gas_Agency/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/20",
       "symbolType": "web-style",
-      "symbolIcon": "gas-station"
+      "symbolIcon": "gas-station",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "GOVERNMENT OFFICES",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Government_office/FeatureServer/0",
+      "titleName": "GOVERNMENT OFFICE",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/19",
       "symbolType": "web-style",
-      "symbolIcon": "embassy"
+      "symbolIcon": "embassy",
+      "id": "OBJECTID"
     },
     {
       "titleName": "HEALTH CARE CENTER",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Public_Health_Center/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/phc_mangaluru_layer/FeatureServer/0",
       "symbolType": "web-style",
-      "symbolIcon": "hospital"
+      "symbolIcon": "hospital",
+      "id": "FID"
     },
     {
-      "titleName": "HERITAGES",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Heritage/FeatureServer/0",
+      "titleName": "HERITAGE",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/18",
       "symbolType": "web-style",
-      "symbolIcon": "native-reservation"
+      "symbolIcon": "native-reservation",
+      "id": "FID"
     },
     {
-      "titleName": "HOTELS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Hotel/FeatureServer/0",
+      "titleName": "HOTEL",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/3",
       "symbolType": "web-style",
-      "symbolIcon": "hotel"
+      "symbolIcon": "hotel",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "MARKETS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Market/FeatureServer/0",
+      "titleName": "MARKET",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/17",
       "symbolType": "web-style",
-      "symbolIcon": "grocery-store"
+      "symbolIcon": "grocery-store",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "MEDICALS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Medical_Store/FeatureServer/0",
+      "titleName": "MEDICAL",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/16",
       "symbolType": "web-style",
-      "symbolIcon": "cross-3"
+      "symbolIcon": "cross-3",
+      "id": "OBJECTID"
     },
     {
       "titleName": "PARK",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Park/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/15",
       "symbolType": "web-style",
-      "symbolIcon": "playground"
+      "symbolIcon": "playground",
+      "id": "OBJECTID"
     },
     {
       "titleName": "PATH LABS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Pathlab/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/14",
       "symbolType": "web-style",
-      "symbolIcon": "hospital"
+      "symbolIcon": "hospital",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "PETROL BUNKS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Petrol_Bunk/FeatureServer/0",
+      "titleName": "PETROL BUNK",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/13",
       "symbolType": "web-style",
-      "symbolIcon": "gas-station"
+      "symbolIcon": "gas-station",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "POST OFFICES",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Post_Office/FeatureServer/0",
+      "titleName": "POST OFFICE",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/12",
       "symbolType": "web-style",
-      "symbolIcon": "post-office"
+      "symbolIcon": "post-office",
+      "id": "OBJECTID"
     },
 
     {
-      "titleName": "PUMPING STATIONS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Pumping_Station/FeatureServer/0",
+      "titleName": "PUMPING STATION",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/11",
       "symbolType": "web-style",
-      "symbolIcon": "esri-pin-1"
+      "symbolIcon": "esri-pin-1",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "RAILWAY STATIONS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Railway_Station/FeatureServer/0",
+      "titleName": "RAILWAY STATION",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/2",
       "symbolType": "web-style",
-      "symbolIcon": "train-station"
+      "symbolIcon": "train-station",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "RELIGIOUS PLACES",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Religious_Place/FeatureServer/0",
+      "titleName": "RELIGIOUS PLACE",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/10",
       "symbolType": "web-style",
-      "symbolIcon": "place-of-worship"
+      "symbolIcon": "place-of-worship",
+      "id": "OBJECTID"
     },
     {
-      "titleName": "RESERVOIRS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Reservoirs/FeatureServer/0",
+      "titleName": "RESERVOIR",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/9",
       "symbolType": "web-style",
-      "symbolIcon": "ferry"
+      "symbolIcon": "ferry",
+      "id": "OBJECTID"
     },
     {
       "titleName": "RESORT",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Resort/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Resorts_mangaluru/FeatureServer/0",
       "symbolType": "web-style",
-      "symbolIcon": "theatre"
+      "symbolIcon": "theatre",
+      "id": "FID"
     },
     {
-      "titleName": "RESTAURANTS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Restaurant/FeatureServer/0",
+      "titleName": "RESTAURANT",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/1",
       "symbolType": "web-style",
-      "symbolIcon": "restaurant"
+      "symbolIcon": "restaurant",
+      "id": "OBJECTID"
     },
     {
       "titleName": "SHOPPING COMPLEX",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Shopping_Complex/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/7",
       "symbolType": "web-style",
-      "symbolIcon": "shopping-center"
+      "symbolIcon": "shopping-center",
+      "id": "OBJECTID"
     },
     {
       "titleName": "TELEPHONE EXCHANGE",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Telephone_Exchange/FeatureServer/0",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Mangalore_Feb6/FeatureServer/6",
       "symbolType": "web-style",
-      "symbolIcon": "radio-tower"
+      "symbolIcon": "radio-tower",
+      "id": "OBJECTID"
+    },
+
+    {
+      "titleName": "TOURIST SPOT",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/arcgis/rest/services/Tourist_Sprots_Mangaluru/FeatureServer/0",
+      "symbolType": "web-style",
+      "symbolIcon": "beach",
+      "id": "FID"
     },
     {
-      "titleName": "TREATMENT PLANTS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Treatment_Plant/FeatureServer/0",
+      "titleName": "TREATMENT PLANT",
+      "url": "https://services3.arcgis.com/BwZSbW2kx9yDHDBi/ArcGIS/rest/services/Treatment_Plant_Mamgalore/FeatureServer/0",
       "symbolType": "web-style",
-      "symbolIcon": "military-base"
-    },
-    {
-      "titleName": "TOURIST SPOTS",
-      "url": "https://webgis.kmds.gov.in/server/rest/services/Hosted/Tourist_Spots_Mangaluru/FeatureServer/0",
-      "symbolType": "web-style",
-      "symbolIcon": "beach"
+      "symbolIcon": "military-base",
+      "id": "FID"
     }
   ]
 }
