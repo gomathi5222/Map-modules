@@ -24,6 +24,11 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
   layer: any;
   id: any;
   updateFeature: any;
+
+  options: any = {
+    globalIdUsed: true,
+    rollbackOnFailureEnabled: true,
+  };
   div = document.getElementById('div1');
   ngOnDestroy(): void {
     throw new Error('Method not implemented.');
@@ -50,7 +55,7 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
       sel.appendChild(opt);
     }
     reactiveUtils.watch(
-      () => this.view.popup?.visible,
+      () => this.view.popup.visible,
       () => {
         // this.view.closePopup();
         console.log('hi');
@@ -58,43 +63,39 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
         this.view.popup?.features.map((e: any) => {
           console.log(e.attributes);
           const ll = document.getElementById('demo') as HTMLElement;
-          ll.innerText = e.attributes.name + ' ' + e.attributes.OBJECTID;
           let ID = this.id;
+          console.log(ID);
+          ll.innerText = '';
+          for (let key in e.attributes) {
+            if (e.attributes.hasOwnProperty(key)) {
+              ll.innerText += `${key}: ${e.attributes[key]} \n`;
+            }
+          }
           if (ID === 'FID') {
             this.updateFeature = {
               attributes: {
-                // globalID: e.attributes.GlobalID,
                 FID: e.attributes.FID,
-
                 ratings: this.ratingCalculation(
                   e.attributes.ratings,
                   e.attributes.count,
-                  5
+                  4
                 ),
-                count: e.attributes.count + 1, // Example of an attribute update
+                count: e.attributes.count + 1,
               },
             };
           } else if (ID === 'OBJECTID') {
             this.updateFeature = {
               attributes: {
-                // globalID: e.attributes.GlobalID,
                 OBJECTID: e.attributes.OBJECTID,
-
                 ratings: this.ratingCalculation(
                   e.attributes.ratings,
                   e.attributes.count,
-                  5
+                  4
                 ),
-                count: e.attributes.count + 1, // Example of an attribute update
+                count: e.attributes.count + 1,
               },
             };
           }
-
-          const options = {
-            // globalIdUsed has to be true when adding, updating or deleting attachments
-            globalIdUsed: true,
-            rollbackOnFailureEnabled: true,
-          };
 
           this.layer
             .applyEdits({
@@ -108,7 +109,7 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
             })
             .catch((error: any) => {
               console.error('Error applying edits:', error);
-            }, options);
+            }, this.options);
         });
       },
 
@@ -116,36 +117,6 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
         sync: true,
       }
     );
-
-    // this.layer.on('edits', function (event: any) {
-    //   const extractObjectId = function (result: any) {
-    //     return console.log();
-    //     result.objectId;
-    //   };
-    // });
-    // this.layer.applyEdits(addEdits, options).then(function (results: any) {
-    //   console.log('edits added: ', results);
-    //   results.addFeatureResults.map((e: any) => {
-    //     console.log(e);
-    // });
-    // });
-    this.view.closePopup();
-    // reactiveUtils.watch(
-    //   () => this.view.map.layer.visible,
-    //   // 'trigger-action',
-    //   () => {
-    //     // if (event.action.id === "share") {
-    //     if (this.view.popup) {
-    //       this.view.popup.features?.map((e: any) => {
-    //         console.log(e.attributes);
-    //       });
-    //     }
-
-    //     // console.log(event);
-
-    //     // }
-    //   }
-    // );
   }
 
   @ViewChild('mapViewNode', { static: true }) el!: ElementRef;
