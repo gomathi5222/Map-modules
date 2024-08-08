@@ -23,6 +23,7 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
   result: any = json;
   layer: any;
   id: any;
+  starratings: any;
   updateFeature: any;
 
   options: any = {
@@ -39,6 +40,22 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
     let avg2 = count + 1;
     return avg1 / avg2;
   }
+  public selectElement = document.querySelector('#stars') as HTMLSelectElement;
+  // selectValue() {
+  //   this.selectElement.onchange = () => {
+  //     console.log(this.selectElement.value);
+  //     this.ratings = this.selectElement.value;
+  //   return this.ratings;
+  //   };
+
+  // }
+  getSelectValue() {
+    this.selectElement.addEventListener('change', function (e: any) {
+      console.log(e.value);
+      // this.starratings = e.value;
+      return e.value;
+    });
+  }
   ngOnInit(): void {
     const data = this.result.services;
     // console.log('Data', data);
@@ -46,6 +63,7 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
     this.initializeMap().then(() => {
       console.log('Map is working fine');
     });
+
     console.log(data.length);
     for (let i = 0; i < data.length; i++) {
       this.res.push(data[i]);
@@ -54,6 +72,12 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
       opt.value = data[i]['titleName'];
       sel.appendChild(opt);
     }
+    // this.selectElement.addEventListener('change', function (e: any) {
+    //   console.log(e.value);
+    //   // this.starratings = e.value;
+    //   return e.value;
+    // });
+    this.getSelectValue();
     reactiveUtils.watch(
       () => this.view.popup.visible,
       () => {
@@ -66,6 +90,7 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
           let ID = this.id;
           console.log(ID);
           ll.innerText = '';
+
           for (let key in e.attributes) {
             if (e.attributes.hasOwnProperty(key)) {
               ll.innerText += `${key}: ${e.attributes[key]} \n`;
@@ -78,7 +103,7 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
                 ratings: this.ratingCalculation(
                   e.attributes.ratings,
                   e.attributes.count,
-                  4
+                  this.starratings
                 ),
                 count: e.attributes.count + 1,
               },
@@ -90,7 +115,7 @@ export class FeedbackMapComponent implements OnInit, OnDestroy {
                 ratings: this.ratingCalculation(
                   e.attributes.ratings,
                   e.attributes.count,
-                  4
+                  this.starratings
                 ),
                 count: e.attributes.count + 1,
               },
